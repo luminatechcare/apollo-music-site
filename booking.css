@@ -1,0 +1,83 @@
+/* BOOKING PAGE LAYOUT — Apollo Music Company */
+
+.booking-layout {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.booking-sidebar h2 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 1rem;
+}
+
+.booking-sidebar p {
+  font-size: 0.95rem;
+  color: var(--slate-light);
+  line-height: 1.75;
+  margin-bottom: 1.5rem;
+}
+
+.step-list {
+  list-style: none;
+  margin-bottom: 2rem;
+  padding-left: 0;
+}
+
+.step-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.9rem;
+  color: var(--slate);
+}
+
+.step-num {
+  width: 28px;
+  height: 28px;
+  background: var(--gold);
+  color: var(--navy);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.8rem;
+  flex-shrink: 0;
+}
+
+.step-text strong {
+  display: block;
+  margin-bottom: 0.15rem;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.step-text span {
+  color: var(--slate-light);
+  font-size: 0.85rem;
+}
+
+.calendly-wrapper {
+  background: var(--white);
+  border: 1px solid var(--ivory-dark);
+  border-radius: 4px;
+  overflow: hidden;
+  min-height: 700px;
+  box-shadow: var(--shadow);
+}
+
+.calendly-inline-widget {
+  min-height: 700px;
+}
+
+@media (max-width: 850px) {
+  .booking-layout {
+    grid-template-columns: 1fr;
+  }
+}
