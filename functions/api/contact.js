@@ -22,5 +22,5 @@ ${message}
   console.log(body);
 
   // TODO: replace this with real SMTP sending once credentials/relay are wired
-  return Response.redirect("/thank-you.html", 302);
+  return Response.redirect("/thankyou.html", 302);
 }
