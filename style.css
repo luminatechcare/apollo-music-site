@@ -745,6 +745,42 @@ footer {
   margin: 0 auto 2rem;
 }
 
+/* Thank You Page */
+/* ================================
+   THANK YOU PAGE STYLES
+   ================================ */
+
+.thankyou-title {
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+}
+
+.thankyou-subtitle {
+  color: rgba(248, 245, 239, 0.6);
+  margin: 0 auto;
+  text-align: center;
+  max-width: 600px;
+}
+
+.thankyou-content {
+  text-align: center;
+  max-width: 650px;
+}
+
+.thankyou-text {
+  margin-bottom: 2rem;
+}
+
+.thankyou-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer-email {
+  color: var(--gold);
+}
+
 /* ===========================
    RESPONSIVE
    =========================== */
